@@ -22,16 +22,16 @@ export class Home extends React.Component{
                             <div className="collapse navbar-collapse" id="navbarResponsive">
                                 <ul className="navbar-nav text-uppercase ml-auto">
                                     <li className="nav-item">
-                                        <a className="nav-link js-scroll-trigger" href="#services">Services</a>
+                                        <a className="nav-link js-scroll-trigger" href="#services">Home</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                                        <a className="nav-link js-scroll-trigger" href="#portfolio">Products</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link js-scroll-trigger" href="#about">About</a>
+                                        <a className="nav-link js-scroll-trigger" href="#about">Events</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link js-scroll-trigger" href="#team">Team</a>
+                                        <a className="nav-link js-scroll-trigger" href="#team">About</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -45,8 +45,8 @@ export class Home extends React.Component{
                     <header className="masthead">
                         <div className="container">
                             <div className="intro-text">
-                                <div className="intro-lead-in">Welcome To Our Studio!</div>
-                                <div className="intro-heading text-uppercase">It is Nice To Meet You</div>
+                                <div className="intro-lead-in">Welcome To Our Events and Athletics E-Commerce Page!</div>
+                                <div className="intro-heading text-uppercase">Find amazing products and events</div>
                                 <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ export class Home extends React.Component{
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12 text-center">
-                                    <h2 className="section-heading text-uppercase">Services</h2>
+                                    <h2 className="section-heading text-uppercase">Products</h2>
                                     <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@ export class Home extends React.Component{
                                         <i className="fa fa-circle fa-stack-2x text-primary"></i>
                                         <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
                                     </span>
-                                    <h4 className="service-heading">Responsive Design</h4>
+                                    <h4 className="service-heading">Local Events</h4>
                                     <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                                 </div>
                                 <div className="col-md-4">
@@ -83,7 +83,7 @@ export class Home extends React.Component{
                                         <i className="fa fa-circle fa-stack-2x text-primary"></i>
                                         <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
                                     </span>
-                                    <h4 className="service-heading">Web Security</h4>
+                                    <h4 className="service-heading">Network with friends</h4>
                                     <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                                 </div>
                             </div>
